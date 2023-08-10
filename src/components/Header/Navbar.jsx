@@ -12,7 +12,6 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-//   const NavItem = (
 //     <div className="hidden md:flex items-center space-x-4">
 //       <NavLink
 //         to="/"
@@ -51,7 +50,7 @@ const Navbar = () => {
 //   );
 
   return (
-    <nav className=" p-4  absolute top-0 z-30 w-full bg-black border-b-1  ">
+    <nav className=" p-4 fixed bg-opacity-95 top-0  w-full bg-black border-b-2  ">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <img
@@ -121,7 +120,7 @@ const Navbar = () => {
           >
             For Manegers
           </NavLink>
-          <div className="flex gap-4 text-gray-300 items-center">
+          <div className="flex gap-4 text-gray-500 items-center">
             <span className="hover:text-white">
               <FaBook></FaBook>
             </span>

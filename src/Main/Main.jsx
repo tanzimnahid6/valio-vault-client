@@ -6,8 +6,8 @@ const Main = () => {
     return (
         <div>
           <Navbar></Navbar>
-          
           <Banner></Banner>
+          <div className="h-96"></div>
         </div>
     );
 };

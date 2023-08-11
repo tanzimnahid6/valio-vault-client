@@ -5,11 +5,11 @@ import SectionOne from "../components/Section1/SectionOne";
 
 const Main = () => {
     return (
-        <div>
-          <Navbar></Navbar>
-          <Banner></Banner>
-          <SectionOne></SectionOne>
-        </div>
+      <div>
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <SectionOne></SectionOne>
+      </div>
     );
 };
 

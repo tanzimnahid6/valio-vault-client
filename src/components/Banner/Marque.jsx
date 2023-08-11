@@ -6,7 +6,7 @@ import logo4 from '../../../assets/company_logo/4.png'
 
 const Marque = () => {
     return (
-      <div className="mt- flex px-8 bg-black text-white items-center py-2 border-t-2">
+      <div className="mt- flex px-8 bg-black text-white items-center -z-10 py-2 border-t-2">
         <h1 className="w-[30vw] text-xl font-bold">Supported integrations</h1>
         <Marquee className="w-[70vw]">
           <div className="flex gap-12">

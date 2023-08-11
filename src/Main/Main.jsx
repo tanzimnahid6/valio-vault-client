@@ -1,5 +1,6 @@
 import Banner from "../components/Banner/Banner";
 import Navbar from "../components/Header/NavBar";
+import SectionOne from "../components/Section1/SectionOne";
 
 
 const Main = () => {
@@ -7,7 +8,7 @@ const Main = () => {
         <div>
           <Navbar></Navbar>
           <Banner></Banner>
-          <div className="h-96"></div>
+          <SectionOne></SectionOne>
         </div>
     );
 };

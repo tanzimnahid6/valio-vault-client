@@ -1,4 +1,5 @@
 import Banner from "../components/Banner/Banner";
+import Marque from "../components/Banner/Marque";
 import Navbar from "../components/Header/NavBar";
 import SectionOne from "../components/Section1/SectionOne";
 import SectionTwo from "../components/Section2/SectionTwo";
@@ -9,8 +10,9 @@ const Main = () => {
       <div>
         <Navbar></Navbar>
         <Banner></Banner>
-        <SectionOne></SectionOne>
-        <SectionTwo></SectionTwo>
+        <Marque></Marque>
+        {/* <SectionOne></SectionOne> */}
+        {/* <SectionTwo></SectionTwo> */}
       </div>
     );
 };

@@ -5,6 +5,7 @@ import { FaBook } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 
+import './nav.css'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -50,7 +51,7 @@ const Navbar = () => {
 //   );
 
   return (
-    <nav className=" p-2 px-10 fixed bg-opacity-95 top-0 z-50 w-full bg-black border-b-2  ">
+    <nav className=" p-2 px-10 fixed bg-opacity-95 top-0 z-50 w-full bg-black border-top  ">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <img

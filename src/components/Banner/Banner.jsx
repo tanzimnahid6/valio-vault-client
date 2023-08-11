@@ -3,7 +3,7 @@
 const Banner = () => {
   return (
     <>
-      <div className="pt-28  md:pl-24 p-8 md:pb-24  flex relative flex-col text-center md:text-left text-white gap-6">
+      <div className="pt-28 bg-[#0b0b26] -z-10  md:pl-24 p-8 md:pb-24  flex relative flex-col text-center md:text-left text-white gap-6">
         <video
           autoPlay
           loop
@@ -34,7 +34,6 @@ const Banner = () => {
           </button>
         </div>
       </div>
-     
     </>
   );
 };

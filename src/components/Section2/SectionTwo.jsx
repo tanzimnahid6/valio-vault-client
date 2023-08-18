@@ -22,7 +22,7 @@ const SectionTwo = () => {
               Deposit and monitor
             </h1>
             <p className="text-gray-300">
-              Keep track of the manager <br /> performance regularl
+              Keep track of the manager <br /> performance regularly
             </p>
           </div>
         </div>

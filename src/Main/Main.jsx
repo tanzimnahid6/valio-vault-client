@@ -7,13 +7,12 @@ import SectionTwo from "../components/Section2/SectionTwo";
 
 const Main = () => {
   return (
-    <div>
+    <div className="xl:max-w-[1800px] mx-auto" >
       <Navbar></Navbar>
       <Banner></Banner>
       <Marque></Marque>
       <SectionOne></SectionOne>
       <SectionTwo></SectionTwo>
-
       <Footer></Footer>
     </div>
   );

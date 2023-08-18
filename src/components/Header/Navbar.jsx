@@ -51,7 +51,7 @@ const Navbar = () => {
 //   );
 
   return (
-    <nav className=" p-2 px-10 fixed bg-opacity-95 top-0 z-50 w-full bg-black border-top  ">
+    <nav className=" p-2 px-10 fixed bg-opacity-95 top-0 z-50 w-full bg-black border-top py-5 max-w-[1800px]">
       <div className="flex items-center justify-between">
         <div className="flex items-center">
           <img

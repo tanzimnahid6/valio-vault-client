@@ -12,7 +12,8 @@ const Main = () => {
       <Banner></Banner>
       <Marque></Marque>
       <SectionOne></SectionOne>
-      <SectionTwo></SectionTwo>
+      
+      <SectionTwo></SectionTwo> 
       <Footer></Footer>
     </div>
   );

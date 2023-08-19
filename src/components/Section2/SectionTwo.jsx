@@ -1,23 +1,15 @@
-
-
 const SectionTwo = () => {
-    return (
-      <div className="h-[130vh] md:h-[100vh] md:flex w-full  bg-gradient-to-t from-[#02030D] to-[#020104]">
-        <div className="w-1/2">
-          <img
-            className="md:ml-56 ml-28 z-10"
-            src="../../../assets/card-bg3.svg"
-            alt=""
-          />
-          <img
-            className="md:ml-[96px] ml-[110px] md:scale-100 scale-x-150 -mt-10 md:-mt-[80px] -z-10 brightness-50"
-            src="../../../assets/under-side.png"
-            alt=""
-          />
-        </div>
-        <div className="md:w-1/2 w-full mt-24 ml-20 ">
+  return (
+    <div className="h-[110vh] md:h-[90vh]  flex flex-col md:flex md:flex-row justify-center w-full bg-gradient-to-t from-[#02030D] to-[#020104]">
+      {/* left image section */}
+      <div className="md:w-1/2  gap-0  flex justify-center md:order-1 order-2">
+        <img className="scale-75" src="../../../assets/left-vault.png" alt="" />
+      </div>
+      {/* Right image section */}
+      <div className="md:w-1/2 w-full  pl-20  md:order-2 order-1 flex justify-center items-center">
+        <div>
           <img src="../../../assets/number-two.svg" alt="" />
-          <div className="-mt-8">
+          <div className="">
             <h1 className="text-4xl font-bold text-white">
               Deposit and monitor
             </h1>
@@ -27,7 +19,8 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
-    );
-};
+    </div>
+  )
+}
 
-export default SectionTwo;
+export default SectionTwo
